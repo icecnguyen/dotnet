@@ -21,9 +21,6 @@ public class GiaoVien : KhenThuong
 
     public override void hien()
     {
-        Console.WriteLine("Ho ten: " + hoten);
-        Console.WriteLine("Ngay sinh: " + ngaysinh);
-        Console.WriteLine("Khoa: " + khoa);
-        Console.WriteLine("So de tai: " + sodetai);
+        Console.WriteLine($"{hoten}\t{ngaysinh}\t{khoa}\t{sodetai}");
     }
 }
