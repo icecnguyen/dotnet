@@ -16,10 +16,7 @@ public class SinhVien : KhenThuong
     }
     public override void hien()
     {
-        Console.WriteLine("Ho ten: " + hoten);
-        Console.WriteLine("Ngay sinh: " + ngaysinh);
-        Console.WriteLine("Lop: " + lop);
-        Console.WriteLine("Diem trung binh: " + diemtrungbinh);
+        Console.WriteLine($"{hoten}\t{ngaysinh}\t{lop}\t{diemtrungbinh}");
     }
     public override bool ktrakhenthuong()
     {
